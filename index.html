@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Saiteja | Portfolio</title>
-    <link rel="stylesheet" href="norm.css">
+    <link rel="stylesheet" href="css/norm.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body id="home">
     <header>
@@ -20,7 +21,7 @@
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
-        <div class="container">
+        <div class="container animated fadeInLeft">
 
             <div class="pageTitle top">
                 <h1>HOME</h1>
@@ -39,7 +40,7 @@
         </div>
     </header>
     <main>
-        <section id="about" class="container cf">
+        <section id="about" class="container cf js--abt">
 
                 <div class="pageTitle">
                     <h1>ABOUT ME</h1>
@@ -84,7 +85,7 @@
 
         </section>
 
-        <section id="projects" class="container">
+        <section id="projects" class="container js--project">
 
                 <div class="pageTitle">
                         <h1>MY PROJECTS</h1>
@@ -92,25 +93,25 @@
 
                 <h2>Codepen Projects</h2>
                 <div class="projectWrap codepen">
-                    <a href="https://codepen.io/SaitejaVemula/full/qKXjoW/" target="_blank"><img src="assets/codepen/1.png" alt=""></a>
-                    <a href="https://codepen.io/SaitejaVemula/full/ZRaEGy/" target="_blank"><img src="assets/codepen/2.png" alt=""></a>
-                    <a href="https://codepen.io/SaitejaVemula/full/eKqVgv/" target="_blank"><img src="assets/codepen/3.png" alt=""></a>
-                    <a href="https://codepen.io/SaitejaVemula/full/Yvmejg/" target="_blank"><img src="assets/codepen/4.png" alt=""></a>
-                    <a href="https://codepen.io/SaitejaVemula/full/djoLwy/" target="_blank"><img src="assets/codepen/5.png" alt=""></a>                  
+                    <a href="https://codepen.io/SaitejaVemula/full/qKXjoW/" target="_blank"><img class="js--img-pop" src="assets/codepen/1.png" alt="Project-1"></a>
+                    <a href="https://codepen.io/SaitejaVemula/full/ZRaEGy/" target="_blank"><img class="js--img-pop" src="assets/codepen/2.png" alt="Project-2"></a>
+                    <a href="https://codepen.io/SaitejaVemula/full/eKqVgv/" target="_blank"><img class="js--img-pop" src="assets/codepen/3.png" alt="Project-3"></a>
+                    <a href="https://codepen.io/SaitejaVemula/full/Yvmejg/" target="_blank"><img class="js--img-pop" src="assets/codepen/4.png" alt="Project-4"></a>
+                    <a href="https://codepen.io/SaitejaVemula/full/djoLwy/" target="_blank"><img class="js--img-pop" src="assets/codepen/5.png" alt="Project-5"></a>                  
                 </div>
 
                 <h2>Adobe XD Projects</h2>
                 <div class="projectWrap xd">
-                    <a href="https://www.behance.net/gallery/65704991/Fitness-Tracking-App" target="_blank"><img src="assets/xd/1.png" alt=""></a>
-                    <a href="https://www.behance.net/gallery/65746839/Movie-Ticket-Booking" target="_blank"><img src="assets/xd/2.png" alt=""></a>
-                    <a href="https://www.behance.net/gallery/65794343/Weather-App-for-SmartWatch" target="_blank"><img src="assets/xd/3.png" alt=""></a>
-                    <a href="https://www.behance.net/gallery/65703047/Freelancer-Webpage" target="_blank"><img src="assets/xd/4.png" alt=""></a>
-                    <a href="https://www.behance.net/gallery/65944969/Mobile-Webpage-of-Day-4s-XDDailyChallenge-task" target="_blank"><img src="assets/xd/5.png" alt=""></a>                  
+                    <a href="https://www.behance.net/gallery/65704991/Fitness-Tracking-App" target="_blank"><img class="js--img-pop2" src="assets/xd/1.png" alt="Project-1"></a>
+                    <a href="https://www.behance.net/gallery/65746839/Movie-Ticket-Booking" target="_blank"><img class="js--img-pop2" src="assets/xd/2.png" alt="Project-2"></a>
+                    <a href="https://www.behance.net/gallery/65794343/Weather-App-for-SmartWatch" target="_blank"><img class="js--img-pop2" src="assets/xd/3.png" alt="Project-3"></a>
+                    <a href="https://www.behance.net/gallery/65703047/Freelancer-Webpage" target="_blank"><img class="js--img-pop2" src="assets/xd/4.png" alt="Project-4"></a>
+                    <a href="https://www.behance.net/gallery/65944969/Mobile-Webpage-of-Day-4s-XDDailyChallenge-task" target="_blank"><img class="js--img-pop2" src="assets/xd/5.png" alt="Project-5"></a>                  
                 </div>
 
         </section>
     </main>
-    <footer id="contact" class="container">
+    <footer id="contact" class="container js--footer">
 
             <div class="pageTitle">
                     <h1>CONTACT</h1>
@@ -136,5 +137,8 @@
             </div>
 
         </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/script.js"></script>
 </body>
 </html>

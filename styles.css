@@ -71,8 +71,23 @@
     #logo {
         /* color: white; */
         margin-right: auto;
+        position: relative;
     }
 
+    #logo span {
+        font-size: 1.15rem;
+    }
+
+    .s-logo {
+        color: #59c349;
+    }
+
+    .v-logo {
+        position: absolute;
+        left: 5px;
+        top : 5px;
+        font-weight: 100;
+    }
 /* __________________________________ 
     HEADER
    __________________________________  */
@@ -239,6 +254,29 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
+            position: relative;
+        }
+
+        .left:after {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            font-weight: 900;
+            color : #d62c1a;
+            content: "Form not working yet";
+            text-align: center;
+            z-index: 3;
+        }
+
+        .cover  {
+            position: absolute;
+            top: 0;
+            width: 99%;
+            height : 100%;
+            /* background: radial-gradient( rgba(255,255,255,0.8), rgba(255,255,255,0.3));  */
+            background: rgba(255,255,255,0.85);
+            z-index: 2;
         }
 
         .right {
@@ -265,6 +303,7 @@
             text-align: center;
         }
 
+
         input::placeholder {
             color: #59c349;
             font-weight: 100;
@@ -274,6 +313,7 @@
             background-color: #59c349;
             color: white;
             width: 15vw;
+            cursor: pointer;
             /* margin-left: auto; */
         }
 
